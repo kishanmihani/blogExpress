@@ -1,0 +1,11 @@
+<div class="container mt-4">
+    <h1>Blog Home</h1>
+    <p>Welcome to the blog! Here are the latest posts:</p>
+{{!-- {{#each blog}} --}}
+    <div class="blog-post">
+        <h3>{{blog.title}}</h3>
+        <p>{{blog.content}}</p>
+        <a href="/blogpost/{{blog.slug}}">Read more</a>
+    </div>
+{{!-- {{/each}} --}}
+</div>
